@@ -13,6 +13,40 @@ function App() {
     setInfo(nombre);
     console.log(info)
   };
+      // <div className='m-4'>
+    // <h1 className=' bg-blue-200 text-3xl'>TAILWIND & REACT</h1>
+    //  <section className='bg-blue-100'>
+    //   <h2 className='mt-4 text-center'> Creado con estados de React</h2>
+    //   <nav className='bg-gray-200 mt-4'> 
+    //     <a className='mx-2' onClick={()=>handleOnClick("1")}>Pestaña 1</a>
+    //     <a className='mx-2' onClick={()=>handleOnClick("2")}>Pestaña 2</a>
+    //     <a className='mx-2'onClick={()=>handleOnClick("3")}>Pestaña 3</a>
+    //   </nav>
+    //   <article>
+    //     <Card info={info}/>
+    //   </article>
+    //  </section>
+
+    //  <section className='bg-gray-400 my-8 pb-2'>
+    //  <h2 className='bg-blue-100'> Creado con Children</h2>
+    //      <CardChildren >
+    //         <h1  className="text-2xl ">Tag 1</h1>
+    //         <span> Quae ad quas praesentium maiores rerum dolor, est explicabo quibusdam beatae.</span>
+    //     </CardChildren>
+    //     <CardChildren >
+    //         <h1  className="text-2xl my-2 ">Tag 2</h1>
+    //         <span> Quae ad quas praesentium maiores rerum dolor, est explicabo quibusdam beatae.</span>
+    //     </CardChildren>
+    //     <CardChildren >
+    //         <h1  className="text-2xl my-2 ">Tag 3</h1>
+    //         <span> Quae ad quas praesentium maiores rerum dolor, est explicabo quibusdam beatae.</span>
+    //     </CardChildren>
+      
+    //  </section>
+     
+    //  <Grid/>
+
+    // </div>
 
   return (
 
@@ -52,6 +86,7 @@ function App() {
       <h4>MiPCIdeal</h4>
       <h4>MiCole</h4>
       <h4>Videojuegos</h4>
+      <h4>Tik Tak Toe</h4>
     </section>
 
     <section class="habilidades">
