@@ -1,6 +1,11 @@
-import React from 'react'
+import { Card } from "./Card"
+import { CardChildren } from "./CardChildren";
 
 export const Hab_Proy = () => {
+   var info={
+      nombre:"Hola",
+      descripcion:"Estamos haciendo una prueba de descripcion",
+      tecnologias:"react,JS, Tailwind"};
   return (
     <section className='m-3'>
     <h3 className='text-3xl'>Habilidades</h3>
@@ -32,10 +37,7 @@ export const Hab_Proy = () => {
     </ul>
     <h3 className='text-3xl'>Proyectos</h3>
     <span> Buenos proyectos con grandes enseñanzas </span>
-    <h4>MiPCIdeal</h4>
-    <h4>MiCole</h4>
-    <h4>Videojuegos</h4>
-    <h4>Tik Tak Toe</h4>
+    <Card info={info}/>
   </section>
   )
 }
