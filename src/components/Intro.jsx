@@ -6,8 +6,8 @@ export const Intro = () => {
     <article>
     <h2 class='text-xl text-naranja'>Desarrollador Full Stack.</h2>
     <h1 class='text-6xl text-beige'>Roberto Martínez García </h1>
-    <span>+2 años desarrollando sitios únicos.</span>
-    <ul className='flex space-x-5 items-center'>
+    <span class=" text-cafe m-2">+2 años desarrollando sitios únicos.</span>
+    <ul className='flex space-x-5 items-center m-2'>
       <li>
         <a href="https://github.com/Robmargar" target="_blank" rel='noreferrer'>
           <img class='w-10' src="../public/github-am.svg" alt="GitHub" />
