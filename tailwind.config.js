@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        cafe: "#482c21",
+        cafe: "#9b6955",
         naranja: "#ff5900",
         amarillo: "#fa9205",
-        beige: "#e9deb0",
+        beige: "#fcfcfc",
         azul: "#001119",
       },
     },

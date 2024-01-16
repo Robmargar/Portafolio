@@ -46,7 +46,7 @@ function App() {
 
   return (
 
-    <div className='bg-azul'>
+    <div class=''>
       <Intro/>
       <Nav/>
       <Me/>

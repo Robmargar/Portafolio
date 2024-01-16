@@ -2,10 +2,11 @@ import Foto_perfil from "../assets/Foto_Perfil.jpeg"
 
 export const Intro = () => {
   return (
-    <section class='grid grid-cols-2 items-center p-10'>
-    <article>
+    <section class='grid grid-cols-2  items-center px-6'>
+    <article class='grid justify-items-center'>
     <h2 class='text-xl text-naranja'>Desarrollador Full Stack.</h2>
-    <h1 class='text-6xl text-beige'>Roberto Martínez García </h1>
+    <h1 class='text-6xl text-beige'>Roberto Martínez</h1>
+    <h1 class='text-6xl text-beige'>García</h1>
     <span class=" text-cafe m-2">+2 años desarrollando sitios únicos.</span>
     <ul className='flex space-x-5 items-center m-2'>
       <li>
@@ -20,7 +21,7 @@ export const Intro = () => {
       </li>
       <li>
         <a href="https://github.com/Robmargar" target="_blank" rel='noreferrer'>
-          <img class='w-10' src="../public/pdf-am-1.svg" alt="Curriculum" />
+          <img class='justify-self-center w-10' src="../public/pdf-am-1.svg" alt="Curriculum" />
         </a>
       </li>
     </ul>

@@ -1,45 +1,38 @@
 import { Card } from "./Card"
 
 export const Hab_Proy = () => {
-   var info={
+   var info=[
+   {
       nombre:"Hola",
       descripcion:"Estamos haciendo una prueba de descripcion",
       tecnologias:[1,2,3]
-   };
-  return (
-    <section class='flex flex-col items-center m-3'>
-    <h3 class='text-3xl text-amarillo'>Habilidades</h3>
-    <div class="flex justify-center m-4">
-      <ul class="flex flex-row">
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/css3-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/html5-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/js-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/nodejs-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/postgresql-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/react-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/redux-icon-nat.svg" alt="" />
-         </li>
-         <li class="w-10 mx-4">
-            <img src="../public/SVG_NATURAL/tailwind-icon-nat.svg" alt="" />
-         </li>
-      </ul>
+   },
+   {
+      nombre:"Hola 2",
+      descripcion:"Estamos haciendo una prueba de descripcion 2",
+      tecnologias:[2,3,1]
+   },
+   {
+      nombre:"Hola 3",
+      descripcion:"Estamos haciendo una prueba de descripcion 3",
+      tecnologias:[3,1,2]
+   },
+
+];
+return (
+    <section class='flex flex-col items-center m-3 '>
+    
+    <h3 class='text-3xl text-amarillo mt-6'>Proyectos</h3>
+    <span class="text-xl text-beige"> Buenos proyectos con grandes enseñanzas </span>
+    <div>
+    { info.map((e)=>(
+         <Card 
+         nombre={e.nombre}
+         descripcion={e.descripcion}
+         tecnologias={e.tecnologias}/>
+        
+    ))}
     </div>
-    <h3 class='text-3xl text-amarillo'>Proyectos</h3>
-    <span class="text-xl text-cafe"> Buenos proyectos con grandes enseñanzas </span>
-    <Card info={info}/>
   </section>
   )
 }
