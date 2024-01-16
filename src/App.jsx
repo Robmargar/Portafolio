@@ -46,7 +46,7 @@ function App() {
 
   return (
 
-    <div class=''>
+    <div class='w-4/5 '>
       <Intro/>
       <Nav/>
       <Me/>
