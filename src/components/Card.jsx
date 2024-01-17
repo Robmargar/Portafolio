@@ -18,8 +18,8 @@ export const Card = ({nombre, descripcion, tecnologias}) => {
     }
  ];
   return (
-    <section class="flex justify-center m-4">
-      <article class="grid grid-cols-2 rounded-3xl p-2 bg-beige w-3/4">
+    <section class="flex justify-center my-4">
+      <article class="grid grid-cols-2 rounded-3xl p-2 bg-beige w-5/6">
         <div class="flex flex-col justify-center">
           <h2 class="text-2xl ml-2">Tab {nombre} </h2>
           <p class="text text-sm ml-2">{descripcion}</p>

@@ -1,6 +1,6 @@
 import {Intro} from './components/Intro.jsx'
 import {Nav} from './components/Nav.jsx'
-import { Me } from './components/Me.jsx'
+import { Experiencia} from './components/Experiencia.jsx'
 import { Hab_Proy } from './components/Hab_Proy.jsx'
 import { Footer } from './components/Footer.jsx'
 import { Contact } from './components/Contact.jsx'
@@ -49,7 +49,7 @@ function App() {
     <div class='w-4/5 '>
       <Intro/>
       <Nav/>
-      <Me/>
+      <Experiencia/>
       <Hab_Proy/>
       <Contact/>
       <Footer/>
